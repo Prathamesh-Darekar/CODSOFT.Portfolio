@@ -1,226 +1,248 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     font-family: 'Roboto', sans-serif;
-    color:white;
+    color: white;
+    FONT-SIZE: 16PX;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     display: none;
+
 }
 
-body{
+body {
     background-color: #262425;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-#bgimg{
-    height: 450px;
-    width:100%;
-    position :absolute;
+#bgimg {
+    height: 30.125rem;
+    width: 100%;
+    position: absolute;
     z-index: -1;
-    opacity:0.6;
+    opacity: 0.6;
 }
 
-img{
-    height:100%;
-    width:100%;
+img {
+    height: 100%;
+    width: 100%;
 }
 
-.navbar{
-    padding:10px;
-    height:30px;
+#navbar {
+    padding: 0.625rem;
+    height: 1.875rem;
     position: sticky;
-    top:0;
+    top: 0;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.5);
     border-bottom: 1px solid rgba(0, 0, 0, 0.438);
-    font-size: 15px;
     display: flex;
     justify-content: space-around;
 }
 
-.navbar strong{
-    transform: translateX(-60px);
-    font-size: 20px;
+#navbar strong {
+    transform: translateX(-3.750rem);
+    font-size: 1.25rem;
 }
 
-.ul-flex{
-    width:45%;
+.ul-flex {
+    width: 45%;
     display: flex;
     justify-content: space-around;
 }
 
-.ul-flex li{
+.ul-flex li {
     list-style: none;
-    padding:3px 8px;
+    padding: 0.188rem 0.5rem;
     border-radius: 20px;
 
 }
 
-.navbar ul li:hover{
+#navbar ul li:hover {
     border: 2px solid rgb(96, 67, 134);
-    cursor:pointer;
+    cursor: pointer;
 }
 
-#intro{
+#intro {
     text-align: start;
-    padding:9rem;
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    padding: 9rem;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
 
-#large strong{
-    font-size: 55px;
+#large strong {
+    font-size: 3.438rem;
     font-family: 'Poppins', sans-serif;
-    color:paleturquoise;
-}
-.detail p{
-    font-size: 21px;
+    color: paleturquoise;
 }
 
-h1{
-    color:paleturquoise;
+.detail p {
+    font-size: 1.313rem;
+}
+
+h1 {
+    color: paleturquoise;
     text-align: center;
-    margin: 30px;
+    margin: 1.875rem;
+    FONT-SIZE: 2REM;
 }
 
-#certification{
+#certification {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width:90%;
-    margin-left:60px;
-    gap:50px;
+    width: 90%;
+    margin-left: 3.750rem;
+    gap: 3.125rem;
 }
 
-.certificate{
-    height:200px;
+.certificate {
+    height: 12.5rem;
     background-color: rgb(114, 221, 221);
-    width:350px;
-    z-index:1;
+    width: 21.875rem;
+    z-index: 1;
 }
 
-.certificate:hover{
-    box-shadow: 4px 2px 6px black;
-    height:205px;
-    width:355px;
-}
-
-#skills{
+#skills {
     display: flex;
-    padding:20px;
+    padding: 1.25rem;
     justify-content: space-around;
-    border-top:5px solid rgb(34, 33, 33);
-    border-bottom:5px solid rgb(34, 33, 33);
-    width:100%;
+    border-top: 5px solid rgb(34, 33, 33);
+    border-bottom: 5px solid rgb(34, 33, 33);
+    width: 100%;
 }
 
-main{
-    line-height: 50px;
+main {
+    line-height: 3.125rem;
 }
 
-.skill li{
-    font-size: 25px;
+.skill li {
+    font-size: 1.563rem;
 }
 
-.head{
-    color:blueviolet;
+.head {
+    color: blueviolet;
     list-style: none;
 }
 
-.rounddiv{
-    height:220px;
-    width:220px;
+.rounddiv {
+    height: 13.75rem;
+    width: 13.75rem;
     border-radius: 50%;
     background-image: url("./assets/me.png");
-    background-size:contain;
+    background-size: contain;
     background-position: center;
 }
 
-footer{
-    padding: 20px;
-    margin-top:40px;
+footer {
+    padding: 1.25rem;
+    margin-top: 2.5rem;
     background-color: rgba(0, 0, 0, 0.219);
 }
 
-#projects{
-    width:100%;
+#projects {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
-.project{
+.project {
     display: flex;
-    gap:100px;
-    padding: 10px;
-    background-color:blueviolet;
-    width:85%
+    gap: 6.25rem;
+    padding: 0.625rem;
+    background-color: blueviolet;
+    width: 85%
 }
 
-.pimg{
-    height:300px;
-    width:500px;
-    border-radius: 10px;;
+.pimg {
+    height: 18.75rem;
+    width: 31.25rem;
+    border-radius: 10px;
     background-size: cover;
 }
 
-.project .detail{
-    width:600px;
-    line-height: 40px;
-    color:black;
+.project .detail {
+    width: 37.5rem;
+    line-height: 2.5rem;
+    color: black;
 }
 
-h2{
-    font-size: 30px;
-    margin:15px;
+h2 {
+    font-size: 1.875rem;
+    margin: 0.938rem;
     margin-left: 0;
     font-style: oblique;
 }
 
-button{
+button {
     background-color: rgb(255, 0, 221);
-    color:white;
-    padding:3px 10px;
+    color: white;
+    padding: 0.188rem 0.625rem;
     border-radius: 10px;
-    border:none;
-    margin: 20px;
+    border: none;
+    margin: 1.25rem;
 }
 
-#projects :nth-of-type(2n){
+#projects :nth-of-type(2n) {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    align-self:flex-end;
+    align-self: flex-end;
 }
 
-#projects :nth-of-type(1){
+#projects :nth-of-type(1) {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-.aboutme{
-    height:350px;
-    width:100%;
+.aboutme {
+    height: 21.875rem;
+    width: 100%;
     display: flex;
-    gap:50px;
+    gap: 3.125rem;
     align-items: center;
 }
 
-#aboutimg{
-    height:260px;
-    width: 260px;
-    border-radius: 35% 65% 75% 25% / 44% 33% 67% 56% ;
-    margin-left: 100px;
+#aboutimg {
+    height: 16.25rem;
+    width: 16.25rem;
+    border-radius: 35% 65% 75% 25% / 44% 33% 67% 56%;
+    margin-left: 6.25rem;
+    background-repeat: no-repeat;
 }
 
-.aboutme p{
-    font-size: 18px;
-    width:60%;
-    line-height: 35px;
+.aboutme p {
+    font-size: 1.125rem;
+    width: 60%;
+    line-height: 2.118rem;
+}
+
+@media (min-width:770px) and (max-width:880px) {
+    * {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:685px) and (max-width:769px) {
+    * {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:684px) {
+    * {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:570px) {
+    * {
+        font-size: 8px;
+    }
 }
