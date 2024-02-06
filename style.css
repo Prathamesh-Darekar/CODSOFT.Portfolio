@@ -110,6 +110,15 @@ h1 {
     background-color: rgb(114, 221, 221);
     width: 21.875rem;
     z-index: 1;
+    border: 4px solid #262425;
+}
+
+.certificate:hover{
+    border: 4px solid blueviolet;
+}
+
+.experience:hover{
+    border: 4px solid blueviolet;
 }
 
 #skills {
